@@ -8,3 +8,4 @@ ENV SEND_ON=
 
 COPY files /
 RUN /patches && rm /patches
+ENTRYPOINT /init
